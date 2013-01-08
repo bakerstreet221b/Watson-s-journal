@@ -1,3 +1,6 @@
+# Text generater generates text using  
+# a hidden Markov model.
+
 text = File.read("example.txt")
 words = text.scan(/\S+/)
 
